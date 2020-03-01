@@ -16,8 +16,8 @@ const InfoModal = (props) => {
                   Ad modi repellendus, optio eveniet eligendi molestiae? 
                   Fugiat, temporibus! 
                </p>
-            </div> 
             <button onClick={closeModal}>Close</button>
+            </div> 
         </div>
     );
 }

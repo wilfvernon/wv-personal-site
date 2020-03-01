@@ -1,0 +1,15 @@
+.cd-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .cd-modal.visible {
+    opacity: 1;
+    visibility: visible;
+    background-color: purple;
+  }

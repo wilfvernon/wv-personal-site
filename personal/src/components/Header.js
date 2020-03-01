@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from './Menu'
  
-const Header = () => {
+const Header = (props) => {
     return (
         <div className="header-div">
             <div id="header-top">
@@ -9,7 +9,7 @@ const Header = () => {
                 <h2 id="header-title">Software Engineer</h2>
             </div>
             <hr></hr>
-            <Menu></Menu>
+            <Menu setModal={props.setModal} setModalContent={props.setModalContent}/>
         </div>
     );
 }

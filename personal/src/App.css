@@ -1,0 +1,77 @@
+.App {
+  text-align: center;
+  background-image: url("/canvas-background.jpg")
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.watercolor-div{
+  height: 100vh;
+  width: 100vw;
+  margin-left: -10vw;
+}
+
+.watercolor-div img{
+  height: 100vh;
+}
+
+.header-div{
+  position: absolute;
+  z-index: 1;
+  font-family: 'Quattrocento';
+  margin-left: 57vw;
+  margin-top: 4vh;
+}
+
+#header-top h2{
+  font-weight: lighter;
+  font-size: 2.6vw;}
+
+#header-top{
+  display: flex;
+  flex-direction: row;
+  width: 37vw;
+  justify-content: space-between;
+  margin-bottom: -3vh;
+}
+
+#header-name{
+  color: rgba(44, 43, 37, 0.876)
+}
+
+#header-title{
+  color: rgba(37, 57, 102, 0.787)
+}

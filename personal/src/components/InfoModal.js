@@ -7,7 +7,7 @@ const InfoModal = (props) => {
         props.setModalContent("")
     }
     return (
-        <div className={`cd-modal ${props.visible ? 'visible' : ''}`}>
+        <div className={`cd-modal ${props.visible ? 'visible' : ''} ${props.content}`}>
             <div className="modal-content">
                <h1>{props.content}</h1>
 

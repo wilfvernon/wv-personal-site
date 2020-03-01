@@ -20,7 +20,7 @@ function App() {
         setModalContent={setModalContent}
       />
     <div className={`cd-transition-layer ${modal? "opening visible":"closing"}`}> 
-      <div className="bg-layer"></div>
+      <div className={`bg-layer ${modalContent}`}></div>
     </div>
     </div>
   );

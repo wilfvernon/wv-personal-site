@@ -61,13 +61,21 @@ Primary style
     height: 100%;
     width: 100%;
     overflow: hidden;
-    background: #402f44 url(/ink-img/modal-bg.jpg) no-repeat center center;
     background-size: cover;
     opacity: 0;
     visibility: hidden;
     -webkit-transition: opacity 0.3s 0s, visibility 0s 0.3s;
     -moz-transition: opacity 0.3s 0s, visibility 0s 0.3s;
     transition: opacity 0.3s 0s, visibility 0s 0.3s;
+  }
+
+  .cd-modal.Projects{
+    background: #402f44 url(/ink-img/modal-bg.jpg) no-repeat center center;
+
+  }
+
+  .cd-modal.About{
+    background: #402f44 url(/ink-img/modal-bg-About.png) no-repeat center center;
   }
   .cd-modal .modal-content {
     height: 100%;
@@ -174,7 +182,7 @@ Primary style
     visibility: hidden;
     overflow: hidden;
   }
-  .cd-transition-layer .bg-layer {
+  .cd-transition-layer .bg-layer.Projects {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -183,13 +191,30 @@ Primary style
     -ms-transform: translateY(-50%) translateX(-2%);
     -o-transform: translateY(-50%) translateX(-2%);
     transform: translateY(-50%) translateX(-2%);
-    /* its dimentions will be overwritten using jQuery to proportionally fit the viewport */
     height: 100%;
     /* our sprite is composed of 25 frames */
     width: 2500%;
     background: url(/ink-img/ink.png) no-repeat 0 0;
     background-size: 100% 100%;
   }
+
+  .cd-transition-layer .bg-layer.About {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translateY(-50%) translateX(-2%);
+    -moz-transform: translateY(-50%) translateX(-2%);
+    -ms-transform: translateY(-50%) translateX(-2%);
+    -o-transform: translateY(-50%) translateX(-2%);
+    transform: translateY(-50%) translateX(-2%);
+    height: 100%;
+    /* our sprite is composed of 25 frames */
+    width: 2500%;
+    background: url(/ink-img/ink-About.png) no-repeat 0 0;
+    background-size: 100% 100%;
+  }
+
+  
   .cd-transition-layer.visible {
     opacity: 1;
     visibility: visible;

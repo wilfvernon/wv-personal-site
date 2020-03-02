@@ -1,0 +1,9 @@
+#Menu h3, a{
+    color: rgba(39, 39, 28, 0.767);
+    text-decoration: none;
+}
+
+#Menu h3:hover, #Menu a:hover{
+    color: rgba(35, 110, 195, 0.876);
+    cursor: pointer;
+}

@@ -1,5 +1,5 @@
 import React, {Fragment} from 'react';
-import '../ReebokTransition.css'
+import '../brushTransition.css'
 
 const Watercolor = () => {
     return (

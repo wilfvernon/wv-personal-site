@@ -20,7 +20,6 @@ html, body{
     left: 0;
     top: 0;
     -webkit-mask: url(https://i.imgur.com/AYJuRke.png);
-    /*-webkit-mask: url(https://veuwer.com/i/3fxb.png);*/
     -webkit-mask-size: 3000% 100%;
     
     -webkit-animation: mask-playzero 2s steps(29) normal forwards;

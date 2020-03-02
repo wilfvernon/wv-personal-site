@@ -1,4 +1,6 @@
 import React from 'react';
+import '../menu.css'
+
  
 const Menu = (props) => {
     const handleClick = (e) => {
@@ -9,10 +11,10 @@ const Menu = (props) => {
 
     return (
         <div id="Menu">
-            <h3 onClick={handleClick} value="About">About</h3>
-            <h3 onClick={handleClick} value="Projects">Projects</h3>
-            <h3 value="Blog"><a href="https://scheduledprogramming937331789.wordpress.com/">Blog</a></h3>
-            <h3 value="Resume"><a href="https://docs.google.com/document/d/1ejnJOxgDcL9TH5s_8FQTykbnsGuOPN06pzAOICVtUNA/edit?usp=sharing">Resume</a></h3>
+            <h3 onClick={handleClick} id="menu-item-about">About</h3>
+            <h3 onClick={handleClick} id="menu-item-projects">Projects</h3>
+            <h3 id="menu-item-blog"><a href="https://scheduledprogramming937331789.wordpress.com/">Blog</a></h3>
+            <h3 id="menu-item-resume"><a href="https://docs.google.com/document/d/1ejnJOxgDcL9TH5s_8FQTykbnsGuOPN06pzAOICVtUNA/edit?usp=sharing">Resume</a></h3>
         </div>
     );
 }

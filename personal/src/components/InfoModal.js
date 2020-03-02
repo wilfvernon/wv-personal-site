@@ -1,5 +1,5 @@
 import React from 'react';
-import "../InkTransition.css"
+import "../inkTransition.css"
  
 const InfoModal = (props) => {
     const closeModal = () => {

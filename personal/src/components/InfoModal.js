@@ -11,10 +11,11 @@ const InfoModal = (props) => {
             <div className="modal-content">
                <h1>{props.content}</h1>
                <img id="wilf-portrait" src="/wilf-watercolor.png" alt="portrait"/>
-            <button onClick={closeModal}>Close</button>
+            <button className="modal-close" onClick={closeModal}></button>
             </div> 
         </div>
     );
 }
  
 export default InfoModal;
+
